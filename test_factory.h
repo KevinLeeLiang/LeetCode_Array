@@ -16,6 +16,8 @@
 #include <memory>
 #include "L1_twoSum/L1_twoSum.h"
 #include "L4_findMedianSortedArrays/L4_findMedianSortedArrays.h"
+#include "L11_maxArea/L11_maxArea.h"
+#include "L15_threeSum/L15_threeSum.h"
 
 class test_factory {
 private:
@@ -26,8 +28,12 @@ private:
         } else if (title == "L4") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L4_findMedianSortedArrays>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L11") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L11_maxArea>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L15") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L15_threeSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }
 public:
