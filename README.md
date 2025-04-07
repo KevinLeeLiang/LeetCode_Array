@@ -13,3 +13,7 @@ LeetCode 数组算法题的解题仓库
 [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/?envType=problem-list-v2&envId=array) : [L11_maxArea](L11_maxArea)
 
 [15. 三数之和](https://leetcode.cn/problems/3sum/description/?envType=problem-list-v2&envId=array) : [L15_threeSum](L15_threeSum)
+
+[16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/description/?envType=problem-list-v2&envId=array) : [L16_threeSumClosest](L16_threeSumClosest)
+
+[18. 四数之和](https://leetcode.cn/problems/4sum/description/?envType=problem-list-v2&envId=array) : [L18_fourSum](L18_fourSum)

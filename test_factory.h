@@ -18,6 +18,8 @@
 #include "L4_findMedianSortedArrays/L4_findMedianSortedArrays.h"
 #include "L11_maxArea/L11_maxArea.h"
 #include "L15_threeSum/L15_threeSum.h"
+#include "L16_threeSumClosest/L16_threeSumClosest.h"
+#include "L18_fourSum/L18_fourSum.h"
 
 class test_factory {
 private:
@@ -33,6 +35,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else if (title == "L15") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L15_threeSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L16") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L16_threeSumClosest>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L18") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L18_fourSum>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }
