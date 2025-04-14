@@ -20,6 +20,8 @@
 #include "L15_threeSum/L15_threeSum.h"
 #include "L16_threeSumClosest/L16_threeSumClosest.h"
 #include "L18_fourSum/L18_fourSum.h"
+#include "L26_removeDuplicates/L26_removeDuplicates.h"
+#include "L27_removeElement/L27_removeDuplicates.h"
 
 class test_factory {
 private:
@@ -42,6 +44,14 @@ private:
         } else if (title == "L18") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L18_fourSum>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L26") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L26_removeDuplicates>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L27") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L27_removeDuplicates>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:

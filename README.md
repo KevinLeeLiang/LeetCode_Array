@@ -17,3 +17,8 @@ LeetCode 数组算法题的解题仓库
 [16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/description/?envType=problem-list-v2&envId=array) : [L16_threeSumClosest](L16_threeSumClosest)
 
 [18. 四数之和](https://leetcode.cn/problems/4sum/description/?envType=problem-list-v2&envId=array) : [L18_fourSum](L18_fourSum)
+
+[26. 删除排序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=array) : [L26_removeDuplicates](L26_removeDuplicates)
+
+[27. 移除元素](https://leetcode.cn/problems/remove-element/description/?envType=problem-list-v2&envId=array) : [L27_removeElement](L27_removeElement)
+
