@@ -22,6 +22,8 @@
 #include "L18_fourSum/L18_fourSum.h"
 #include "L26_removeDuplicates/L26_removeDuplicates.h"
 #include "L27_removeElement/L27_removeDuplicates.h"
+#include "L31_nextPermutation/L31_nextPermutation.h"
+#include "L33_search/L33_search.h"
 
 class test_factory {
 private:
@@ -49,6 +51,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else if (title == "L27") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L27_removeDuplicates>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L31") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L31_nextPermutation>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L33") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L33_search>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else {
             cout << "no solution" << endl;

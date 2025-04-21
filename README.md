@@ -22,3 +22,6 @@ LeetCode 数组算法题的解题仓库
 
 [27. 移除元素](https://leetcode.cn/problems/remove-element/description/?envType=problem-list-v2&envId=array) : [L27_removeElement](L27_removeElement)
 
+[31. 下一个排列](https://leetcode.cn/problems/next-permutation/description/?envType=problem-list-v2&envId=array) : [L31_nextPermutation](L31_nextPermutation)
+
+[33. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=array) : [L33_search](L33_search)
