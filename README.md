@@ -25,3 +25,7 @@ LeetCode 数组算法题的解题仓库
 [31. 下一个排列](https://leetcode.cn/problems/next-permutation/description/?envType=problem-list-v2&envId=array) : [L31_nextPermutation](L31_nextPermutation)
 
 [33. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=array) : [L33_search](L33_search)
+
+[34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/?envType=problem-list-v2&envId=array) : [L34_searchRange](L34_searchRange)
+
+[35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/?envType=problem-list-v2&envId=array) : [L35_searchInsert](L35_searchInsert)
