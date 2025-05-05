@@ -29,3 +29,7 @@ LeetCode 数组算法题的解题仓库
 [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/?envType=problem-list-v2&envId=array) : [L34_searchRange](L34_searchRange)
 
 [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/?envType=problem-list-v2&envId=array) : [L35_searchInsert](L35_searchInsert)
+
+[36. 有效的数独](https://leetcode.cn/problems/valid-sudoku/description/?envType=problem-list-v2&envId=array) : [L36_isValidSudoku](L36_isValidSudoku)
+
+[37. 解数独](https://leetcode.cn/problems/sudoku-solver/description/?envType=problem-list-v2&envId=array) : [L37_solveSudoku](L37_solveSudoku)

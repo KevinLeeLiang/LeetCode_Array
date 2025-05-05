@@ -26,6 +26,8 @@
 #include "L33_search/L33_search.h"
 #include "L34_searchRange/L34_searchRange.h"
 #include "L35_searchInsert/L35_searchInsert.h"
+#include "L36_isValidSudoku/L36_isValidSudoku.h"
+#include "L37_solveSudoku/L37_solveSudoku.h"
 
 class test_factory {
 private:
@@ -66,6 +68,14 @@ private:
         } else if (title == "L35") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L35_searchInsert>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L36") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L36_isValidSudoku>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L37") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L37_solveSudoku>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
