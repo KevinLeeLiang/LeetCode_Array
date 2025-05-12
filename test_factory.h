@@ -28,6 +28,8 @@
 #include "L35_searchInsert/L35_searchInsert.h"
 #include "L36_isValidSudoku/L36_isValidSudoku.h"
 #include "L37_solveSudoku/L37_solveSudoku.h"
+#include "L39_combinationSum/L39_combinationSum.h"
+#include "L40_combinationSum2/L40_combinationSum2.h"
 
 class test_factory {
 private:
@@ -74,8 +76,12 @@ private:
         } else if (title == "L37") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L37_solveSudoku>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L39") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L39_combinationSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L40") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L40_combinationSum2>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }
 public:

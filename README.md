@@ -33,3 +33,7 @@ LeetCode 数组算法题的解题仓库
 [36. 有效的数独](https://leetcode.cn/problems/valid-sudoku/description/?envType=problem-list-v2&envId=array) : [L36_isValidSudoku](L36_isValidSudoku)
 
 [37. 解数独](https://leetcode.cn/problems/sudoku-solver/description/?envType=problem-list-v2&envId=array) : [L37_solveSudoku](L37_solveSudoku)
+
+[39. 组合总和](https://leetcode.cn/problems/combination-sum/description/?envType=problem-list-v2&envId=array) : [L39_combinationSum](L39_combinationSum)
+
+[40. 组合总和 II](https://leetcode.cn/problems/combination-sum-ii/description/?envType=problem-list-v2&envId=array) : [L40_combinationSum2](L40_combinationSum2)
