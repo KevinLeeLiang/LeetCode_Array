@@ -37,3 +37,7 @@ LeetCode 数组算法题的解题仓库
 [39. 组合总和](https://leetcode.cn/problems/combination-sum/description/?envType=problem-list-v2&envId=array) : [L39_combinationSum](L39_combinationSum)
 
 [40. 组合总和 II](https://leetcode.cn/problems/combination-sum-ii/description/?envType=problem-list-v2&envId=array) : [L40_combinationSum2](L40_combinationSum2)
+
+[41. 缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/description/?envType=problem-list-v2&envId=array) : [L41_firstMissingPositive](L41_firstMissingPositive)
+
+[42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/description/?envType=problem-list-v2&envId=array) : [L42_trap](L42_trap)

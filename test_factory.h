@@ -30,6 +30,8 @@
 #include "L37_solveSudoku/L37_solveSudoku.h"
 #include "L39_combinationSum/L39_combinationSum.h"
 #include "L40_combinationSum2/L40_combinationSum2.h"
+#include "L41_firstMissingPositive/L41_firstMissingPositive.h"
+#include "L42_trap/L42_trap.h"
 
 class test_factory {
 private:
@@ -81,6 +83,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else if (title == "L40") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L40_combinationSum2>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L41") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L41_firstMissingPositive>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L42") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L42_trap>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }
