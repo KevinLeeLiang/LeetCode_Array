@@ -41,3 +41,7 @@ LeetCode 数组算法题的解题仓库
 [41. 缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/description/?envType=problem-list-v2&envId=array) : [L41_firstMissingPositive](L41_firstMissingPositive)
 
 [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/description/?envType=problem-list-v2&envId=array) : [L42_trap](L42_trap)
+
+[45. 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/description/?envType=problem-list-v2&envId=array) : [L45_jump](L45_jump)
+
+[46. 全排列](https://leetcode.cn/problems/permutations/description/?envType=problem-list-v2&envId=array) : [L46_permute](L46_permute)

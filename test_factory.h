@@ -32,6 +32,7 @@
 #include "L40_combinationSum2/L40_combinationSum2.h"
 #include "L41_firstMissingPositive/L41_firstMissingPositive.h"
 #include "L42_trap/L42_trap.h"
+#include "L45_jump/L45_jump.h"
 
 class test_factory {
 private:
@@ -89,6 +90,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else if (title == "L42") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L42_trap>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L45") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L45_jump>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }
