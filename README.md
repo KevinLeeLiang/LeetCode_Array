@@ -45,3 +45,7 @@ LeetCode 数组算法题的解题仓库
 [45. 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/description/?envType=problem-list-v2&envId=array) : [L45_jump](L45_jump)
 
 [46. 全排列](https://leetcode.cn/problems/permutations/description/?envType=problem-list-v2&envId=array) : [L46_permute](L46_permute)
+
+[47. 全排列 II](https://leetcode.cn/problems/permutations-ii/description/?envType=problem-list-v2&envId=array) : [L47_permuteUnique](L47_permuteUnique)
+
+[48. 旋转图像](https://leetcode.cn/problems/rotate-image/description/?envType=problem-list-v2&envId=array) : [L48_rotateImage](L48_rotateImage)

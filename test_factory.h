@@ -33,6 +33,9 @@
 #include "L41_firstMissingPositive/L41_firstMissingPositive.h"
 #include "L42_trap/L42_trap.h"
 #include "L45_jump/L45_jump.h"
+#include "L46_permute/L46_premute.h"
+#include "L47_permuteUnique/L47_permuteUnique.h"
+#include "L48_rotate/L48_rotate.h"
 
 class test_factory {
 private:
@@ -93,6 +96,15 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else if (title == "L45") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L45_jump>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L46") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L46_premute>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L47") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L47_permuteUnique>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L48") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L48_rotate>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }
