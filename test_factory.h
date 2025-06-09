@@ -36,6 +36,8 @@
 #include "L46_permute/L46_premute.h"
 #include "L47_permuteUnique/L47_permuteUnique.h"
 #include "L48_rotate/L48_rotate.h"
+#include "L49_groupAnagrams/L49_groupAnagrams.h"
+#include "L51_solveNQueens/L51_solveNQueens.h"
 
 class test_factory {
 private:
@@ -105,6 +107,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else if (title == "L48") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L48_rotate>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L49") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L49_groupAnagrams>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L51") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L51_solveNQueens>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }

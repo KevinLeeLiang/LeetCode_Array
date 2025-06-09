@@ -49,3 +49,7 @@ LeetCode 数组算法题的解题仓库
 [47. 全排列 II](https://leetcode.cn/problems/permutations-ii/description/?envType=problem-list-v2&envId=array) : [L47_permuteUnique](L47_permuteUnique)
 
 [48. 旋转图像](https://leetcode.cn/problems/rotate-image/description/?envType=problem-list-v2&envId=array) : [L48_rotateImage](L48_rotateImage)
+
+[49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/description/?envType=problem-list-v2&envId=array) : [L49_groupAnagrams](L49_groupAnagrams)
+
+[51. N皇后](https://leetcode.cn/problems/n-queens/description/?envType=problem-list-v2&envId=array) : [L51_solveNQueens](L51_solveNQueens)
