@@ -53,3 +53,7 @@ LeetCode 数组算法题的解题仓库
 [49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/description/?envType=problem-list-v2&envId=array) : [L49_groupAnagrams](L49_groupAnagrams)
 
 [51. N皇后](https://leetcode.cn/problems/n-queens/description/?envType=problem-list-v2&envId=array) : [L51_solveNQueens](L51_solveNQueens)
+
+[53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/?envType=problem-list-v2&envId=array) : [L53_maxSubArray](L53_maxSubArray)
+
+[54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/description/?envType=problem-list-v2&envId=array) : [L54_spiralOrder](L54_spiralOrder)

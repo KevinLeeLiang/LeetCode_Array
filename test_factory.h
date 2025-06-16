@@ -38,6 +38,8 @@
 #include "L48_rotate/L48_rotate.h"
 #include "L49_groupAnagrams/L49_groupAnagrams.h"
 #include "L51_solveNQueens/L51_solveNQueens.h"
+#include "L53_maxSubArray/L53_maxSubArray.h"
+#include "L54_spiralOrder/L54_spiralOrder.h"
 
 class test_factory {
 private:
@@ -113,6 +115,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else if (title == "L51") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L51_solveNQueens>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L53") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L53_maxSubArray>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L54") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L54_spiralOrder>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }
