@@ -40,6 +40,8 @@
 #include "L51_solveNQueens/L51_solveNQueens.h"
 #include "L53_maxSubArray/L53_maxSubArray.h"
 #include "L54_spiralOrder/L54_spiralOrder.h"
+#include "L55_canJump/L55_canJump.h"
+#include "L56_merge/L56_merge.h"
 
 class test_factory {
 private:
@@ -121,6 +123,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else if (title == "L54") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L54_spiralOrder>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L55") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L55_canJump>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L56") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L56_merge>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }

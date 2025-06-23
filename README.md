@@ -57,3 +57,7 @@ LeetCode 数组算法题的解题仓库
 [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/?envType=problem-list-v2&envId=array) : [L53_maxSubArray](L53_maxSubArray)
 
 [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/description/?envType=problem-list-v2&envId=array) : [L54_spiralOrder](L54_spiralOrder)
+
+[55. 跳跃游戏](https://leetcode.cn/problems/jump-game/description/?envType=problem-list-v2&envId=array) : [L55_canJump](L55_canJump)
+
+[56. 合并区间](https://leetcode.cn/problems/merge-intervals/description/?envType=problem-list-v2&envId=array) : [L56_merge](L56_merge)
