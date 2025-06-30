@@ -61,3 +61,7 @@ LeetCode 数组算法题的解题仓库
 [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/description/?envType=problem-list-v2&envId=array) : [L55_canJump](L55_canJump)
 
 [56. 合并区间](https://leetcode.cn/problems/merge-intervals/description/?envType=problem-list-v2&envId=array) : [L56_merge](L56_merge)
+
+[57. 插入区间](https://leetcode.cn/problems/insert-interval/description/?envType=problem-list-v2&envId=array) : [L57_insert](L57_insert)
+
+[59. 螺旋矩阵 II](https://leetcode.cn/problems/spiral-matrix-ii/description/?envType=problem-list-v2&envId=array) : [L59_generateMatrix](L59_generateMatrix)

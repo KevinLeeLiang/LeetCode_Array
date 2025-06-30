@@ -42,6 +42,8 @@
 #include "L54_spiralOrder/L54_spiralOrder.h"
 #include "L55_canJump/L55_canJump.h"
 #include "L56_merge/L56_merge.h"
+#include "L57_insert/L57_insert.h"
+#include "L59_generateMatrix/L59_generateMatrix.h"
 
 class test_factory {
 private:
@@ -129,6 +131,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else if (title == "L56") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L56_merge>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L57") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L57_insert>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L59") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L59_generateMatrix>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }
