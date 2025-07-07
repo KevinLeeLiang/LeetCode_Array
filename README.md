@@ -65,3 +65,7 @@ LeetCode 数组算法题的解题仓库
 [57. 插入区间](https://leetcode.cn/problems/insert-interval/description/?envType=problem-list-v2&envId=array) : [L57_insert](L57_insert)
 
 [59. 螺旋矩阵 II](https://leetcode.cn/problems/spiral-matrix-ii/description/?envType=problem-list-v2&envId=array) : [L59_generateMatrix](L59_generateMatrix)
+
+[63. 不同路径 II](https://leetcode.cn/problems/unique-paths-ii/description/?envType=problem-list-v2&envId=array) : [L63_uniquePathsWithObstacles](L63_uniquePathsWithObstacles)
+
+[64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/?envType=problem-list-v2&envId=array) : [L64_minPathSum](L64_minPathSum)
