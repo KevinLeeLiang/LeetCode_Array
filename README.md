@@ -69,3 +69,5 @@ LeetCode 数组算法题的解题仓库
 [63. 不同路径 II](https://leetcode.cn/problems/unique-paths-ii/description/?envType=problem-list-v2&envId=array) : [L63_uniquePathsWithObstacles](L63_uniquePathsWithObstacles)
 
 [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/?envType=problem-list-v2&envId=array) : [L64_minPathSum](L64_minPathSum)
+
+[66. 加一](https://leetcode.cn/problems/plus-one/description/?envType=problem-list-v2&envId=array) : [L66_plusOne](L66_plusOne)

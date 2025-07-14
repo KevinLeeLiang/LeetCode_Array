@@ -46,6 +46,7 @@
 #include "L59_generateMatrix/L59_generateMatrix.h"
 #include "L63_uniquePathsWithObstacles/L63_uniquePathsWithObstacles.h"
 #include "L64_minPathSum/L64_minPathSum.h"
+#include "L66_plusOne/L66_plusOne.h"
 
 class test_factory {
 private:
@@ -145,6 +146,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         } else if (title == "L64") {
             std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L64_minPathSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
+        } else if (title == "L66") {
+            std::shared_ptr<LeetcodeArray> tmp = std::make_shared<L66_plusOne>();
             solution_ = std::dynamic_pointer_cast<LeetcodeArray>(tmp);
         }
     }
