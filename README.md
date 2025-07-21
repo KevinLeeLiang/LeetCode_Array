@@ -71,3 +71,5 @@ LeetCode 数组算法题的解题仓库
 [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/?envType=problem-list-v2&envId=array) : [L64_minPathSum](L64_minPathSum)
 
 [66. 加一](https://leetcode.cn/problems/plus-one/description/?envType=problem-list-v2&envId=array) : [L66_plusOne](L66_plusOne)
+
+[68. 文本左右对齐](https://leetcode.cn/problems/text-justification/description/?envType=problem-list-v2&envId=array) : [L68_fullJustify](L68_fullJustify)
